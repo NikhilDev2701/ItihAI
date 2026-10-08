@@ -21,7 +21,7 @@ if __name__ == "__main__":
     print("=" * 60)
     try:
         init_db()
-        print("\n[+] Database seeded and verified successfully.")
+        print("\n[+] Database seeded and verified successfully.done")
     except Exception as exc:
         print(f"\n[-] Seeding failed: {exc}", file=sys.stderr)
         sys.exit(1)
